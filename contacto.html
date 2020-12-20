@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./css/contacto.css">
+</head>
+<body>
+    <div class="formulario">
+    <form action="">
+        <div>
+            <h4>¿De donde sos?</h4>
+            <select name="pais" id="pais">
+                <option value="ar">Argentina</option>
+                <option value="uy">Uruguay</option>
+                <option value="br">Brasil</option>
+            </select>
+        </div>
+        <div>
+            <h4>¿Que te pareció la iluminación del ambiente?</h4>
+            <input type="radio" name="ambiente" value="3" id="ambiente3"><label for="ambiente3">Muy acorde</label><br>
+            <input type="radio" name="ambiente" value="2" id="ambiente2"><label for="ambiente2">Bueno, pero podría mejorar</label><br>
+           <input type="radio" name="ambiente" id="ambiente1" value="1"><label for="ambiente1">Mala</label>
+        </div>
+        <div>
+            <h4>¿Qué tipo de plato más te gustó?</h4>
+            <input type="checkbox" name="plato" id="1"> <label for="1">Entrada</label><br>
+            <input type="checkbox" name="plato" id="2"> <label for="2">Plato principal</label><br>
+            <input type="checkbox" name="plato" id="3">
+            <label for="3">Postre</label>
+        </div>
+        <div>
+            <h4>¿Recomendarías el lugar?</h4>
+           
+            <input type="radio" name="recomienda" value="1" id="si"><label for="si"> Sí </label>
+            <input type="radio" name="recomienda" id="no" value="0"><label for="no"> No </label>
+        </div>
+        <div>
+            <br>
+           
+            <h4>¿Por qué?</h4>
+            <br>
+            <textarea name="comentario" id="comentario" cols="60" rows="9"></textarea>
+        </div>
+        <br>
+        <h4>dejanos tus datos y nos pondremos en contacto con vos</h4>
+        <br>
+        <label for="nombre">nombre:</label>
+        <input type="text" value="tu nombre" id="nombre">
+       <br>
+       <br>
+       <label for="email"> Email:</label>
+        <input type="email" value="tu email" id="email">
+        <br>
+        <br>
+        <div class="a">
+        <input type="submit" value="enviar">
+    </div>
+    <div class="b">
+    <input type="reset" value="resetear">
+</div>
+
+    </form>
+</div>
+
+</body>
+</html>
